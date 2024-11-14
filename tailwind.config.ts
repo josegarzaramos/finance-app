@@ -11,6 +11,7 @@ export default {
       colors: {
         pistachio: '#dfe4db',
         forest: '#4c624c',
+        evergreen: '#1a291a',
       },
       gridTemplateColumns: {
         desktop: '300px 1fr',
