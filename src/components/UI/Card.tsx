@@ -7,8 +7,6 @@ interface CardProps<T> extends ComponentPropsWithoutRef<'div'> {
 }
 
 const Card = ({ children, className }: CardProps<string>) => {
-  return (
-    <div className={`bg-white rounded-2xl p-3 ${className}`}>{children}</div>
-  );
+  return <div className={`rounded-2xl p-3 ${className}`}>{children} </div>;
 };
 export default Card;
