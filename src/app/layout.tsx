@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="min-h-full lg:h-full">
-      <body className="grid grid-cols-1 lg:grid-cols-desktop grid-rows-1 h-full overflow-auto lg:overflow-hidden ">
+      <body className="grid grid-cols-1 lg:grid-cols-desktop grid-rows-1 h-full overflow-auto lg:overflow-hidden bg-pistachio">
         {children}
       </body>
     </html>

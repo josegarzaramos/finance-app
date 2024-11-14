@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        pistachio: '#dfe4db',
+        forest: '#4c624c',
+      },
       gridTemplateColumns: {
         desktop: '300px 1fr',
       },
