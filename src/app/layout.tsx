@@ -12,8 +12,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="min-h-full lg:h-full">
+      <body className="grid grid-cols-1 lg:grid-cols-desktop grid-rows-1 h-full overflow-auto lg:overflow-hidden ">
+        {children}
+      </body>
     </html>
   );
 }
