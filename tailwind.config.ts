@@ -12,9 +12,19 @@ export default {
         pistachio: '#dfe4db',
         forest: '#4c624c',
         evergreen: '#1a291a',
+        mint: '#f0f8f3',
       },
       gridTemplateColumns: {
         desktop: '300px 1fr',
+      },
+      fontSize: {
+        '32': [
+          '2rem',
+          {
+            lineHeight: '120%',
+            letterSpacing: '0',
+          },
+        ],
       },
     },
   },
