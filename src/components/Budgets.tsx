@@ -1,6 +1,6 @@
 'use client';
 import dynamic from 'next/dynamic';
-import { Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { Pie, Cell, ResponsiveContainer } from 'recharts';
 import SectionHeader from './SectionHeader';
 
 const PieChart = dynamic(
